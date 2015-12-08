@@ -22,12 +22,14 @@ Or install it yourself as:
 
 in your views:
 
+```
 <%= fb_like(url) %> # 絕對路徑
 <%= fb_comments(url) %>
 
 # 也可以設定長寬
 
 <%= fb_comments(url, width: 500, height: 300) %>
+```
 
 ## Development
 
